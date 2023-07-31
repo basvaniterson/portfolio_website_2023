@@ -469,8 +469,20 @@ h4 {
 
 @media screen and (max-width: 1080px) {
     .paragraph {
-        font-size: 12px;
+        font-size: 16px;
         line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .paragraph {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .paragraph-text {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
