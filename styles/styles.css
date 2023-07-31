@@ -73,6 +73,12 @@ hr {
     gap: 40px;
 }
 
+#projects-intro-container {
+    margin: auto;
+    max-width: 1430px;
+    margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1080px) {
     .flex-container {
         display: inline-block;
@@ -103,6 +109,11 @@ hr {
     #about-container {
         margin: 0px 40px;
     }
+
+    #projects-intro-container {
+        margin: 40px 0px 0px 40px;
+    }
+    
 
     .container {
         margin-left: 40px;
@@ -150,6 +161,10 @@ hr {
     #video-container {
         max-width: 100%;
         margin: 0px 15px 0px 15px;
+    }
+
+    #projects-intro-container {
+        margin: 30px 15px 15px 15px;
     }
 
     #project-nav-container {
@@ -416,6 +431,18 @@ h4 {
     }
 }
 
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
 .paragraph {
     color: #FFF;
     font-size: 16px;
@@ -444,5 +471,12 @@ h4 {
     .paragraph {
         font-size: 12px;
         line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .highlight-paragraph {
+        font-size: 16px;
+        line-height: 24px;
     }
 }

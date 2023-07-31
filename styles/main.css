@@ -119,13 +119,14 @@ body {
   #border-background_projects {
     position: relative;
     max-height: 100%;
-  }  
+  }
 }
 
 @media screen and (max-width: 380px) {
-    #border-background_full-screen {
-        position: relative;
-    }
+  #border-background_full-screen {
+    position: relative;
+    max-height: 100%;
+  }  
 }
 
 .border-background::before {
@@ -541,9 +542,12 @@ body {
 
 @media screen and (max-width: 600px) {
     .main-menu {
-        padding: 0px 30px 0px 30px;
+        padding: 0px 15px 0px 15px;
         margin: 0px;
-        font-size: 16px;
+    }
+
+    .main-menu p {
+      font-size: 16px;
     }
 
     .closebtn {
@@ -551,7 +555,8 @@ body {
     }
 
     .menu-link p{
-        font-size: 14px;
+        font-size: 12px;
+        padding-left: 15px;
     }
 }
 
@@ -580,7 +585,7 @@ body {
 @media screen and (max-width: 1080px) {
 
     .hero-image {
-        width: 450px;
+        width: 350px;
         margin: 40px 0px;
     }
 }
@@ -595,14 +600,14 @@ body {
 @media screen and (max-width: 600px) {
     .hero-image {
         margin: 30px 0px;
-        width: 340px;
+        width: 320px;
     }
 }
 
 @media screen and (max-width: 470px) {
     .hero-image {
         margin: 30px 0px;
-        width: 220px;
+        width: 190px;
     }
 }
 
@@ -637,9 +642,16 @@ body {
     animation: project-entry 1s ease-in-out forwards;
 }
 
+@media screen and (max-width: 1050px) {
+  .card-background-img img {
+      width: 80%;
+  }
+}
+
+
 @media screen and (max-width: 670px) {
     .card-background-img img {
-        width: 70%;
+        width: 60%;
     }
 }
 
@@ -683,12 +695,12 @@ body {
 
 @media screen and (max-width: 1080px) {
     
-    .navigation-card {
+    .navigation-card-link {
         padding: 15px;
         margin-bottom: 15px;
     }
 
-    .navigation-card:last-of-type {
+    .navigation-card-link:last-of-type {
         margin-bottom: 0px;
     }
     
@@ -702,6 +714,10 @@ body {
     #navigation-card-column {
         margin-bottom: 15px;
     }
+
+    .pagination-title {
+      font-size: 22px;
+  }
     
     #navigation-card-column:last-of-type {
         margin-bottom: 0px;
@@ -783,6 +799,10 @@ body {
     margin-bottom: 40px;
 }
 
+#projects-case-intro-paragraph {
+  margin-bottom: 40px;
+}
+
 .project-item {
   opacity: 0;
   transform: translateY(50px);
@@ -845,7 +865,13 @@ body {
     margin-bottom: 80px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1200px) {
+    .project-intro-paragraph {
+        margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
     .project-intro-paragraph {
         margin-bottom: 15px;
     }
@@ -855,7 +881,7 @@ body {
         height: auto;
         pointer-events: none;
     }
-    
+
   }
 
   @media screen and (max-width: 768px) {
@@ -1124,4 +1150,3 @@ body {
     justify-content: space-between;
     margin-bottom: 30px;
   }
-
