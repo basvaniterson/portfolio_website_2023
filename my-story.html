@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio | Bas van Iterson</title>
+    <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bas van Iterson">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fiv8wyx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="noise-background"></div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+        <div class="menu-card">
+            <div class="menu-nav">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Menu</p>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick= "closeNav()">Close</a>
+            </div>
+            <div class="menu-items">
+                <div class="content">
+                    <a href="index.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">01</p>
+                            <h1 class="menu-title">Home</h1>
+                        </div>
+                    </a>
+                    <a href="work.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">02</p>
+                            <h1 class="menu-title">Featured work</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">03</p>
+                            <h1 class="menu-title">Design lab</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">04</p>
+                            <h1 class="menu-title">My story</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-menu-nav">
+                <div class="menu-links-nav">
+                    <div class="social-menu-items">
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="/docs/resume_bas-van-iterson_2023.pdf" target="_blank"> 
+                                <p class="resume-text" style="padding-left: 0px;">Download resume</p>
+                            </a>
+                        </div>
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="menu-link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="menu-link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-links-nav">
+                    <a class="contact-btn" id="menu-contact-btn" href="mailto:hello@basvaniterson.com">
+                        <i class="link-block"></i>
+                        <p>Let's talk</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-background">
+    <header>
+        <div class="nav-container">
+            <div class="nav-item">
+                <div class="logo-container">
+                    <a class="navbar-logo" href="index.html">                          
+                        <img class="logo-icon" src="images/logo_icon.svg"></img>
+                        <p class="logo-name"><span class="surname">Bas</span> van Iterson</p>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-item" id="menu-content">
+                <div class="nav-content">
+                    <div class="link-nav-items">
+                        <div class="social-nav-item">
+                            <a class="link" href="docs/resume_bas-van-iterson_2023.pdf" target="_blank"> <p class="resume-text">Download resume</p> </a>
+                        </div>
+                        <div class="social-nav-item">
+                            <a class="link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-nav-items">
+                        <a class="contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                            <i class="link-block"></i>
+                            <p>Let's talk</p>
+                        </a>
+                        <div class="main-menu" onclick="openNav()">
+                            <p>Menu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="project-intro-paragraph">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">available for work</p>
+                </div>
+                <h1>Beyond the pixels: Elevating brands through digital solutions</h1>
+                <h4> As a Digital product Designer my goal is to express my passion and drive to create innovative designs in the digital realm. My drive is to unleash the potential of every project, surpassing limits to achieve business and social milestones. </h4>
+            </div>
+    </section>
+    <section>
+        <div class="flex-container" id="about-container">
+            <div class="column">
+                <img class="about-image" src="images/About-profile-image.png" width="600px"/>
+            </div>
+            <div class="column">
+                <div class="paragraph-content">
+                    <p class="highlight-paragraph">Hello there! I'm Bas van Iterson, a 26-year-old Digital product designer with a strong focus on UI design, UX design, branding, and digital products. My journey began as a Graphic designer, and over time, I honed and specialized my skills, eventually graduating as a UI/UX designer.</p>
+                </div>
+                <div class="paragraph-content" id="last-paragraph-content">
+                    <p class="paragraph">In my most recent position, I was part of the team at DPDK, a prominent Digital agency located in Rotterdam, the Netherlands. My role primarily focused as a supporting UX/UI designer, contributing to a range of projects for diverse clients such as Heineken, Diergaarde Blijdorp, and other exciting companies. Additionally, I developed a digital product for internal use, which served as my thesis project. Working at DPDK allowed me the opportunity to collaborate with multi-disciplinary teams with talented individuals from various backgrounds and different countries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">My process</p>
+                </div>
+                <h2>How I work</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">Phase 01</p>
+                    </div>
+                    <h3>Discovering the problem, goals and the solution</h3>
+                    <p class="paragraph">Clearly defining the problem and setting achievable goals are vital for finding a solution that meets business objectives. This process is essential to me.</p>
+                </div>
+                <div class="paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">Phase 02</p>
+                    </div>
+                    <h3>Learning about the user using the (excisting) product</h3>
+                    <p class="paragraph">Researching and gaining insights from users play a crucial role in the product creation process. It helps uncover new problems, goals, and valuable insights, ultimately leading to the development of a better digital product.</p>
+                </div>
+                <div class="paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">Phase 03</p>
+                    </div>
+                    <h3>Defining and iterating on digital concepts</h3>
+                    <p class="paragraph">Iteration is essential for exploring various solutions during the digital product creation process. This approach leads to a funnel effect, helping me identify and select the best options, ultimately resulting in a well-defined prototype.</p>
+                </div>
+                <div class="paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">Phase 04</p>
+                    </div>
+                    <h3>Designing and testing custom prototypes</h3>
+                    <p class="paragraph">
+                        When designing a digital product, I test my prototypes by interacting with the design and clicking through the prototype. Ensuring the prototype is as realistic as possible is crucial to conduct effective tests. Making everything clickable and creating a smooth flow are essential steps in developing user-friendly concepts.</p>
+                </div>
+                <div class="paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">Phase 05</p>
+                    </div>
+                    <h3>Delivering awesome and usable interfaces</h3>
+                    <p class="paragraph">When I deliver the final design, it's a real-time high-fidelity prototype that you can explore, providing a realistic overview of the digital product. This phase is the most exciting, as it reminds me how much I love this profession!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="scripts/main.js"></script>

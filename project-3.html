@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio | Bas van Iterson</title>
+    <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bas van Iterson">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fiv8wyx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="noise-background"></div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+        <div class="menu-card">
+            <div class="menu-nav">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Menu</p>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick= "closeNav()">Close</a>
+            </div>
+            <div class="menu-items">
+                <div class="content">
+                    <a href="index.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">01</p>
+                            <h1 class="menu-title">Home</h1>
+                        </div>
+                    </a>
+                    <a href="work.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">02</p>
+                            <h1 class="menu-title">Featured work</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">03</p>
+                            <h1 class="menu-title">Design lab</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">04</p>
+                            <h1 class="menu-title">My story</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-menu-nav">
+                <div class="menu-links-nav">
+                    <div class="social-menu-items">
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="/docs/resume_bas-van-iterson_2023.pdf" target="_blank"> 
+                                <p class="resume-text" style="padding-left: 0px;">Download resume</p>
+                            </a>
+                        </div>
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="menu-link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="menu-link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-links-nav">
+                    <a class="contact-btn" id="menu-contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                        <i class="link-block"></i>
+                        <p>Let's talk</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-background">
+    <header>
+        <div class="nav-container">
+            <div class="nav-item">
+                <div class="logo-container">
+                    <a class="navbar-logo" href="index.html">                          
+                        <img class="logo-icon" src="images/logo_icon.svg"></img>
+                        <p class="logo-name"><span class="surname">Bas</span> van Iterson</p>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-item" id="menu-content">
+                <div class="nav-content">
+                    <div class="link-nav-items">
+                        <div class="social-nav-item">
+                            <a class="link" href="docs/resume_bas-van-iterson_2023.pdf" target="_blank"> <p class="resume-text">Download resume</p> </a>
+                        </div>
+                        <div class="social-nav-item">
+                            <a class="link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-nav-items">
+                        <a class="contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                            <i class="link-block"></i>
+                            <p>Let's talk</p>
+                        </a>
+                        <div class="main-menu" onclick="openNav()">
+                            <p>Menu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+
+        <div class="container">
+            <div class="project-intro-paragraph">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Product & design</p>
+                </div>
+                <h1 class="project-detail-title">Miyousotis</h1>
+                <h4> Miyousotis is an app focused on the current emotional state of relatives of the deceased, offering personalized task recommendations and responsive advice.</h3>
+            </div>
+            <div class="grid-container" id="grid-4-container">
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Intro _ Great.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Intro _ Neutral.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Intro _ Strested.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Intro _ tired.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Intro _ Bad.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Home.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Proposed activities.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Miyousotis _ Task overview.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Miyousotis</p>
+                </div>
+                <h2>Project introduction</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <h3>The challenge</h3>
+                    <p class="paragraph">The relatives of the deceased lacks the compassion of concerned agencies during the death settlement process.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>The goal</h3>
+                    <p class="paragraph">The goal is to humanize the settlement process for relatives of the deceased through service design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex-container" id="project-intro-container">
+            <div class="column" id="image-column">
+                <img class="intro-image" src="images/grid-image_project-3.png">
+            </div>
+            <div class="column">
+                <h2 class="project-intro-title">The highlighted progression that led to the final product</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 01</p>
+                </div>
+                <h2>User research</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <p class="paragraph">
+                        During this project, the goal was to solve a problem for a picked target group within 8 weeks during a Service design minor as a group project. The client was Digicampus a Dutch company that develops new digital products for the Dutch government and other institutions. Our group decided to design a service for the relatives of the deceased. In the project, we used the Double Diamond method and we applied various user methods. We started with a problem and stakeholder analysis. After analysing the problem we knew which direction we needed to take. So we started with gaining data by doing Topic and structured interviews with multiple respondents from the selected target group. After gaining useful insights we used Empathy mapping to gather the most useful data. Lastly, by setting system requirements we were able to set up recommendations and goals. This led to the following insights:</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Offer an overview of the tasks</h3>
+                    <p class="paragraph">The Dutch government currently offers basic information about which tasks need to be arranged within the first weeks of the departure. However, in the interviews, we found that the information consists of questions that aren't connected and that the target group often needs to find information about the specific task separately. In our service, we are going to provide a separate overview of the tasks with guidance.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Provide activities for emotional support</h3>
+                    <p class="paragraph">To support the relatives of a departed person we saw a need for advice in the form of activities that distract the loved one based on their current emotional state to ease their pain in the grieving process while arranging tasks that need to be completed within the first weeks of the departure. They suffer from a lot of stress, sadness and irritations. The goal is to reduce the emotions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 02</p>
+                </div>
+                <h2>Concept ideation</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <h3>Final concept</h3>
+                    <p class="paragraph"> Miyousotis is a digital environment focused on the current emotional state of the relatives of the deceased with a human point of view. The solution can estimate which activities fit the user's respective state of mind, filtering in an overview which tasks still need to be completed after several weeks of death. The solution also responds to the user's current feelings and desires by providing an appropriate response. Finally, the solution then provides advice on what to do in the current emotional state.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>The name</h3>
+                    <p class="paragraph"> The name Miyousotis originates from a flower called Myosotis, which is often used at funerals. This flower symbolizes support and power. By combining the word "you" with the existing name, Miyousotis, our service keeps the focus on you, the user. Our main goal is to prioritize the mental health of the user.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 03</p>
+                </div>
+                <h2>Visual design</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <p class="paragraph"> 
+                        I exclusively designed the project, crafting the brand identity for Miyousotis and giving shape to its visual style. The logo was created by simplifying the flower into an iconic representation. To evoke a sense of calmness, I opted for a lighter color palette, incorporating various colors to allow users to express their current mood without feeling overwhelmed.
+                        
+                        For the font selection, I combined Lora and Roboto. Lora, a serif font, adds elegance and serves well as the body text within the app. On the other hand, Roboto was chosen for its high readability, ensuring an effortless user experience when interacting with the application.</p>
+                </div>
+                <div class="container" id="image-container">
+                <img class="cover-image" src="images/Miyousotis-Styletile.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">afterwards</p>
+                </div>
+                <h2>Reflection</h2>
+            </div>
+            <div class="project-column">
+                <div class="list-paragraph-content">
+                    <h3>Learnt lessons</h3>
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Discussing about Dividing the workload </strong> within a project together with multiple team members. For future projects, I will make a effort to get to know people at a certain level to know what the strengths are of a person to utilize those skills in project.</p>
+                    </div>
+                </div>
+                <div class="list-paragraph-content">
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>The need to do more Service design </strong>in future projects. I experienced that I found Service design very interesting because of making an impact with your designs on social-cultural topics. It would be exciting to do more similar projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a class="" href="project-1.html">
+            <div class="flex-container" id="project-nav-container">
+                <div class="column" id="image-column">
+                    <img class="intro-image" src="images/Project 1.png">
+                </div>
+                <div class="column">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">next project</p>
+                    </div>
+                    <h1>Component Matrix Library</h1>
+                </div>
+            </div>
+        </a>
+    </section>
+</body>
+<script src="scripts/main.js"></script>

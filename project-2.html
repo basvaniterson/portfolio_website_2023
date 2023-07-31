@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio | Bas van Iterson</title>
+    <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bas van Iterson">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fiv8wyx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="noise-background"></div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+        <div class="menu-card">
+            <div class="menu-nav">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Menu</p>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick= "closeNav()">Close</a>
+            </div>
+            <div class="menu-items">
+                <div class="content">
+                    <a href="index.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">01</p>
+                            <h1 class="menu-title">Home</h1>
+                        </div>
+                    </a>
+                    <a href="work.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">02</p>
+                            <h1 class="menu-title">Featured work</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">03</p>
+                            <h1 class="menu-title">Design lab</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">04</p>
+                            <h1 class="menu-title">My story</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-menu-nav">
+                <div class="menu-links-nav">
+                    <div class="social-menu-items">
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="/docs/resume_bas-van-iterson_2023.pdf" target="_blank"> 
+                                <p class="resume-text" style="padding-left: 0px;">Download resume</p>
+                            </a>
+                        </div>
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="menu-link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="menu-link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-links-nav">
+                    <a class="contact-btn" id="menu-contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                        <i class="link-block"></i>
+                        <p>Let's talk</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-background">
+    <header>
+        <div class="nav-container">
+            <div class="nav-item">
+                <div class="logo-container">
+                    <a class="navbar-logo" href="index.html">                          
+                        <img class="logo-icon" src="images/logo_icon.svg"></img>
+                        <p class="logo-name"><span class="surname">Bas</span> van Iterson</p>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-item" id="menu-content">
+                <div class="nav-content">
+                    <div class="link-nav-items">
+                        <div class="social-nav-item">
+                            <a class="link" href="docs/resume_bas-van-iterson_2023.pdf" target="_blank"> <p class="resume-text">Download resume</p> </a>
+                        </div>
+                        <div class="social-nav-item">
+                            <a class="link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-nav-items">
+                        <a class="contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                            <i class="link-block"></i>
+                            <p>Let's talk</p>
+                        </a>
+                        <div class="main-menu" onclick="openNav()">
+                            <p>Menu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="project-intro-paragraph">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Product & design</p>
+                </div>
+                <h1 class="project-detail-title">Allergy Alert</h1>
+                <h4>Allergy Alert is a practical app designed to help allergy sufferers discover safe products in local stores, making shopping easier and more convenient.</h4>
+            </div>
+            <div class="grid-container" id="grid-4-container">
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Intro.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Login screen.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Home.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - My list.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - List collection.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Details.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Search.png">
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="project-content">
+                        <img class="project-image" height="auto" src="images/Allergy Alert - Settings.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Allergy Alert</p>
+                </div>
+                <h2>Project introduction</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <h3>The challenge</h3>
+                    <p class="paragraph">For people with specific allergies, shopping for safe products in local stores can be a daunting and time-consuming task. Many individuals struggle to find suitable products that meet their allergen requirements, often leading to frustration and anxiety during shopping trips. Without a reliable source of information, they may have to visit multiple stores or spend significant time reading product labels to ensure their safety. This process not only adds stress to their lives but also hinders their ability to confidently embrace a normal shopping routine.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>The solution</h3>
+                    <p class="paragraph">Enter Allergy Alert, the practical app designed with allergy sufferers in mind. This innovative solution aims to simplify the shopping experience for users with specific allergies by providing a comprehensive database of approved products available in particular stores within their area. With Allergy Alert, users can effortlessly create and access a personalized list of safe products tailored to their specific allergen requirements. By having access to this valuable information at their fingertips, users can now shop with convenience and confidence, knowing that the app will alert them to suitable products in their selected stores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex-container" id="project-intro-container">
+            <div class="column" id="image-column">
+                <img class="intro-image" src="images/grid-image_project-2.png">
+            </div>
+            <div class="column">
+                <h2 class="project-intro-title">The highlighted progression that led to the final product</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 01</p>
+                </div>
+                <h2>Concept ideation</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <h3>Final concept</h3>
+                    <p class="paragraph"> Introducing <strong>Allergy Alert</strong> - the practical app designed for people with specific allergies, which alerts the user about the products available in particular stores in their area. I was inspired by those around me who struggled to find safe products in local stores and wanted to provide a solution to compare and discover products available in each store specifically. With this app, users can create a list of approved products available nearby at selected stores, making shopping easier for allergy sufferers. Embrace a life of convenience and confidence with Allergy Alert!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 02</p>
+                </div>
+                <h2>Visual design</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-container">
+                    <img class="visual-design-image" src="images/allergy-alert_logo.png" width="300px" height="auto">
+                    <p class="paragraph">By creating the brand for the Allergy Alert concept I implemented a visual style that fits the needs of the end-users. The branding consists of multiple visual elements. In the visual imagery, I've designed a logo that represents a Molecule. the red circle around it indicates a warning message. The icon is not only used as an icon but also as a 3D visual created in Adobe Dimensions. For the colors, I've used the 60/30/10 color rule to create a color palette for this app. As a dominant color white is partially used as a background color. As a secondary accent color, I've used blue to convey safety and security for the users while using Allergy Alert. The accent color red is used to convey that the app gives you an alert on products that aren't safe for people with dietary needs in the form of informational icons with the product. This color also gives a clear contrast with the secondary color blue. The Google font Poppins is used to increase readability and clarity. The font fits well with the app where the smaller font sizes within the interface are still readable by the geometric shapes used in Poppins.</p>
+                </div>
+                <div class="flex-container" id="visual-image-container">
+                    <div class="column">
+                        <img class="project_visual-image" src="images/Project-2_Visual-style-image-1.png">
+                    </div>
+                    <div class="column">
+                        <img class="project_visual-image" src="images/Project-2_Visual-style-image-2.png">
+                    </div>
+                    <div class="column">
+                        <img class="project_visual-image" src="images/Project-2_Visual-style-image-3.png">
+                    </div>
+                    <div class="column">
+                        <img class="project_visual-image" src="images/Project-2_Visual-style-image-4.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">afterwards</p>
+                </div>
+                <h2>Reflection</h2>
+            </div>
+            <div class="project-column">
+                <div class="list-paragraph-content">
+                    <h3>Learnt lesson</h3>
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Using excisting color contrasts </strong> while creating a visual branding. For future projects, I will use excisting color contrast patterns for optimal readability and visual appearance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a class="" href="project-3.html">
+            <div class="flex-container" id="project-nav-container">
+                <div class="column">
+                    <img class="intro-image" src="images/project 3.png">
+                </div>
+                <div class="column">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">next project</p>
+                    </div>
+                    <h1>Miyousotis</h1>
+                </div>
+            </div>
+        </a>
+    </section>
+</body>
+<script src="scripts/main.js"></script>

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio | Bas van Iterson</title>
+    <meta charset="UTf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bas van Iterson">
+    <meta http-equiv="Content-Language" content="en-US">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="images/Favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fiv8wyx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="cursor"></div>
+    <div class="noise-background"></div>
+    <div id="mySidenav" class="sidenav" style="width: 0;">
+        <div class="menu-card">
+            <div class="menu-nav">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Menu</p>
+                </div>
+                <a href="javascript:void(0)" class="closebtn" onclick= "closeNav()">Close</a>
+            </div>
+            <div class="menu-items">
+                <div class="content">
+                    <a href="index.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">01</p>
+                            <h1 class="menu-title">Home</h1>
+                        </div>
+                    </a>
+                    <a href="work.html">
+                        <div class="menu-item">
+                            <p class="pagination-element">02</p>
+                            <h1 class="menu-title">Featured work</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">03</p>
+                            <h1 class="menu-title">Design lab</h1>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="menu-item">
+                            <p class="pagination-element">04</p>
+                            <h1 class="menu-title">My story</h1>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="bottom-menu-nav">
+                <div class="menu-links-nav">
+                    <div class="social-menu-items">
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="/docs/resume_bas-van-iterson_2023.pdf" target="_blank"> <p class="resume-text" style="padding-left: 0px;">Download resume</p></a>
+                        </div>
+                        <div class="social-menu-item">
+                            <a class="menu-link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="menu-link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="menu-link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-links-nav">
+                    <a class="contact-btn" id="menu-contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                        <i class="link-block"></i>
+                        <p>Let's talk</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-background">
+    <header>
+        <div class="nav-container">
+            <div class="nav-item">
+                <div class="logo-container">
+                    <a class="navbar-logo" href="index.html">                          
+                        <img class="logo-icon" src="images/logo_icon.svg"></img>
+                        <p class="logo-name"><span class="surname">Bas</span> van Iterson</p>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-item" id="menu-content">
+                <div class="nav-content">
+                    <div class="link-nav-items">
+                        <div class="social-nav-item">
+                            <a class="link" href="docs/resume_bas-van-iterson_2023.pdf" target="_blank"> <p class="resume-text">Download resume</p> </a>
+                        </div>
+                        <div class="social-nav-item">
+                            <a class="link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
+                                <p>Linkedin</p>
+                            </a>
+                            <a class="link" href="https://dribbble.com/bvaniterson" target="_blank">
+                                <p>Dribbble</p>
+                            </a>
+                            <a class="link" href="https://www.behance.net/basvaniterson1/projects" target="_blank">
+                                <p>Behance</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn-nav-items">
+                        <a class="contact-btn" href="mailto:bas.van.iterson.design@gmail.com">
+                            <i class="link-block"></i>
+                            <p>Let's talk</p>
+                        </a>
+                        <div class="main-menu" onclick="openNav()">
+                            <p>Menu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="project-intro-paragraph">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Product & design</p>
+                </div>
+                <h1 class="project-detail-title">Component Matrix Library</h1>
+                <h4>As a thesis project, I've designed a customizable digital platform in 17 weeks, speeding up the production process of building components and working with designers, developers, and other stakeholders at Digital Agency DPDK.</h4>
+            </div>
+            <video class="project-video" autoplay muted loop>
+                <source src="images/homepage.mp4" type="video/mp4">
+            </video>
+            <p class="video-description"><strong>Project CML</strong> | Home</p>
+        </div>
+        <div class="flex-container" id="video-container">
+            <div class="flex-column">
+                <div class="video-content">
+                    <video class="project-video" autoplay muted loop>
+                        <source src="images/Get started.mp4" type="video/mp4">
+                    </video>
+                    <p class="video-description"><strong>Project CML</strong> | Get started </p>
+                </div>
+            </div>
+            <div class="flex-column">
+                <div class="video-content">
+                    <video class="project-video" autoplay muted loop>
+                        <source src="images/Component overview.mp4" type="video/mp4">
+                    </video>
+                    <p class="video-description"><strong>Project CML</strong> | Component overview </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container" id="video-container">
+            <div class="flex-column">
+                <div class="video-content">
+                    <video class="project-video" autoplay muted loop>
+                        <source src="images/Brand Styles.mp4" type="video/mp4">
+                    </video>
+                    <p class="video-description"><strong>Project CML</strong> | Brand styles </p>
+                </div>
+            </div>
+            <div class="flex-column">
+                <div class="video-content">
+                    <video class="project-video" autoplay muted loop>
+                        <source src="images/resources.mp4" type="video/mp4">
+                    </video>
+                    <p class="video-description"><strong>Project CML</strong> | Resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">Component Matrix Library</p>
+                </div>
+                <h2>Project introduction</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <h3>The challenge</h3>
+                    <p class="paragraph">Designers and developers within DPDK do not currently have a digital solution that provides documentation of the work processes and an overview of reusable and scalable components they can use for clients. There is an increased complexity of work in the current production process with higher expectations are set by the clients. Subsequently, budgets do not increase proportionally and the Digital agency has to work with the same or fewer budgets resulting in the need to speed up the entire current production process and make it more flexible so that the shorter time available in sprints can be better utilized. Also, the designers and developers also experience while building websites that extra work arises from rebuilding the same or similar components over and over again. This lacks documentation and an overview of the components to speed up and streamline the production process and meet client requirements.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>The goal</h3>
+                    <p class="paragraph">The designers, developers, and other stakeholders within DPDK can use a digital solution in which the documentation of the entire production process and an overview of reusable and scalable components, design and develop unique high-quality websites. This allows the combination between effectiveness and customization to speed up and ease the entire production process for the designers, developers and other stakeholders.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Used method</h3>
+                    <p class="paragraph">In this project, I used the Double Diamond method, which consists of four phases: Discover, Define, Develop, and Deliver. This approach allowed me to concentrate on the problem at hand and work towards finding effective solutions, employing both divergence and convergence of ideas. By utilizing the Double Diamond framework, I could thoroughly validate each activity, either individually or with the input of others. This ensured a comprehensive and well-informed process throughout the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flex-container" id="project-intro-container">
+            <div class="column" id="image-column">
+                <img class="intro-image" src="images/grid-image.png">
+            </div>
+            <div class="column">
+                <h2 class="project-intro-title">The highlighted progression that led to the final product</h2>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 01</p>
+                </div>
+                <h2>User research</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <p class="paragraph">By doing User research with various research methods I was able to gather multiple insights that were shaped into concepts and at the end, the final product. To start of I set up <strong>Bussines objectives</strong> and did a <strong>Benchmark</strong> to validate functions within exsisting industry standard design systems. After doing <strong>Semi-structured interviews</strong> I was able to bundle all gathered information into <strong>User needs</strong>, <strong>User stories</strong> and finally in a <strong>User journey map</strong> that formed the following most important user insights:</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Include the stages of Atomic design</h3>
+                    <p class="paragraph">Use the hierarchy of the Atomic Design method to create an structured overview of the 24 default components that the Designers and Developers want to use in multiple stages like Atoms, Molecules and Organisms.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Add documentation</h3>
+                    <p class="paragraph">Create documentation for the multiple departments for each specific role for the designers, developers and other stakeholder. The documentation consists out of different functions to increase collaboration and to create a bigger understanding. Describe a roadmap to communicate what steps each role takes. Also include best practices with tutorials to build components. Appoint one person for each library across the departments with a CTA so that the owner of the library can be contacted.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Make components scalable and re-usable</h3>
+                    <p class="paragraph">Define the default style of the components with the correct specifications like font, color and icon usage that fit the brand of the Digital Agency and pushes the visual style to a new level.</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3>Include external resources</h3>
+                    <p class="paragraph">Create an overview out of all internal and external resources that the company has to create one digital environment where resources be accessed and updated so that no information get’s lost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 02</p>
+                </div>
+                <h2>Concept ideation</h2>
+            </div>
+            <div class="project-column">
+                <div class="paragraph-content">
+                    <p class="paragraph">Using the insights gathered, I translated all user needs and acquired information into system requirements. I prioritized the most important requirements using the <strong>MOSCOW</strong> prioritization method, which eventually led to the creation of multiple concepts. To further develop these concepts, I engaged with <strong>ChatGPT</strong> through various prompts to redefine and refine the ideas based on the data and insights gathered. The assistance of this AI tool enabled me to validate the results and solidify the final concepts. Throughout the process, I actively sought feedback from others and ensured that each concept underwent validation with the end-users from the Digital Agency. After careful consideration, a decision was made to merge two concepts, resulting in a combination of a database of documentation and a blueprint overview of the components. This integration led to what is now known as the Component Matrix Library (CML).</p>
+                </div>
+                <div class="paragraph-content">
+                    <h3> Final concept</h3>
+                    <p class="paragraph"> As a <strong>thesis project</strong> I’ve designed a customizable digital platform in the duration of 17 weeks that speeds up the production process of building components by designers and developers of Digital Agency DPDK. The <strong>Component Matrix Library (CML)</strong> is a digital prototype that provides <strong>documentation</strong> and an <strong>overview of components</strong> according to the stages of <strong>the Atomic Design Method</strong>. This digital solution  can be used by <strong>designers</strong>, <strong>developers</strong> and other <strong>stakeholders</strong> to access components and associated documentation to use the components <strong>scalable</strong> and <strong>re-useable</strong>. Per component the user can see the specifications like used color, font, sizing and icon usage to work consistently. CML improves productivity, knowledge transfer and collaboration between different departments, and enables the delivery of high-quality websites within tight budgets. It provides a hierarchical ordering of components and specific <strong>component blueprint views</strong> to ensure consistency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="paragraph-content">
+                <div class="project-paragraph-content">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">phase 03</p>
+                    </div>
+                    <h2>Information architecture</h2>
+                    <p class="paragraph">To create the High-fidelity prototype, a well-organized information architecture was crucial. The process commenced with the development of a <strong>Sitemap</strong>, followed by a <strong>Flowchart</strong>, and eventually the <strong>Wireframes</strong> (low-fi prototype). Through these steps, all the final pages of Project CML were defined, taking into account the diverse system requirements and user needs that paved the way for this final outcome:</p>
+                </div>
+                <video class="project-video" autoplay muted loop>
+                    <source src="images/wireframe-ux-homepage.mp4" type="video/mp4">
+                    <source src="images/wireframe-ux-homepage.mp4" type="video/ogg">
+                </video>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">phase 04</p>
+                </div>
+                <h2>Visual design</h2>
+                <p class="paragraph">In order to bring the product to its final stage, I incorporated the established branding, as per the Styleguides, into new <strong>Styletiles</strong>, giving CML a modern and distinctive edge over the other internal products that had been made. While the DPDK branding remained recognizable, it also served as a example for internal inspiration to revamp their entire branding approach. Following the creation of the Styletiles, I proceeded to craft a range of visuals for the prototype. To begin this process, I utilized <strong>Blender</strong> and drew inspiration from the various examples I had gathered during the Styletile phase for the <strong>Illustration visuals</strong>, I came up with a new style that the DPDK can use in the future.</p>
+            </div>
+            <div class="visuals-content">
+                <h3>Blender visuals</h3>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-1.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-2.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-3.png">
+                    </div>  
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-4.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-5.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_blender_visual-6.png">
+                    </div>  
+                </div>
+            </div>
+            <div class="visuals-content">
+                <h3>Illustration visuals</h3>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_illustration_visual-1.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_illustration_visual-2.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_illustration_visual-3.png">
+                    </div>  
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_illustration_visual-4.png">
+                    </div>
+                    <div class="grid-item">
+                        <img class="visual-image" src="images/project-1_illustration_visual-5.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-container">
+            <div class="project-column">
+                <div class="description">
+                    <i class="description-block"></i>
+                    <p class="description-text">afterwards</p>
+                </div>
+                <h2>Reflection</h2>
+            </div>
+            <div class="project-column">
+                <div class="list-paragraph-content">
+                    <h3>Learnt lessons</h3>
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Gather as much data as possible</strong> in a project I learned that interviewing as many end-users as possible has a big impact on the final product. I chose to interview more people than required, and it resulted in many new insights. For future projects, I'll try to interview as many respondents as I can to gather the most data.</p>
+                    </div>
+                </div>
+                <div class="list-paragraph-content">
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Gaining more knowledge of semantic writing in prompts</strong> while ideating on concepts, I learned to work with ChatGPT and got useful feedback from team members on how to write semantic prompt in the AI tool. For example I learned a couple of tricks for example to describe how ChatGPT should act as a spefic role. Also while generating concepts that it helps to get a understandable result to ask if ChatGPT could explain the given data as todler, so that it comes up with a clear explaination and with understandable examples. For future projects I want to learn more about semantic prompting to improve my interactions with AI tools.</p>
+                    </div>
+                </div>
+                <div class="list-paragraph-content">
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Maintaining good communication is crucial</strong> in this process with the target audience helped in validating activities and receiving timely feedback. Short communication lines allowed for quick adjustments and ensured the project stayed on track.</p>
+                    </div>
+                </div>
+                <div class="list-paragraph-content">
+                    <div class="list-item">
+                        <i class="list-block"></i>   
+                        <p class="paragraph"><strong>Use the Double Diamond method as a visual representation</strong> throughout a project, I found that using visual representations, such as the Double Diamond method, was incredibly helpful in presenting my progress to mentors and stakeholders in a clear and concise manner. The visual approach allowed them to easily understand the different phases and activities I was undertaking, giving them a comprehensive overview of my project's trajectory. I am eager to utilize this approach in future projects as it proved to be an effective way to communicate complex concepts and showcase the project's development in a visually appealing manner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <a class="" href="project-2.html">
+            <div class="flex-container" id="project-nav-container">
+                <div class="column">
+                    <img class="intro-image" src="images/Project 2.png">
+                </div>
+                <div class="column">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">next project</p>
+                    </div>
+                    <h1>Alergy alert</h1>
+                </div>
+            </div>
+        </a>
+    </section>
+</body>
+<script src="scripts/main.js"></script>
