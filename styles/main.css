@@ -117,15 +117,17 @@ body {
 
 .border-background_projects {
   margin: 40px;
-  max-height: 100%;
   max-width: 100%;
   border: 1px solid #ffffff;
   clip-path: polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px);
   -webkit-clip-path: polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px);
-  position: fixed;
+  position: absolute;
+  top: 0px;
+  max-height: 100vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
-
-
 
 .border-background_projects::before {
   border-right: 2px solid #ffffff;
@@ -164,15 +166,6 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-}
-
-.border-background_projects {
-  position: absolute;
-  top: 0px;
-  max-height: 100vh;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
 }
 
 @media screen and (max-width: 1074px) {
