@@ -115,12 +115,6 @@ body {
   width: 0;   
 }
 
-@media screen and (max-width: 500px) {
-  .border-background {
-      max-height: 100%;
-  }
-}
-
 #border-background_full-screen {
   position: absolute;
   top: 0px;
@@ -138,6 +132,12 @@ body {
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+@media screen and (max-width: 500px) {
+  .border-background {
+      max-height: 100%;
+  }
 }
 
 @media screen and (max-width: 1074px) {
