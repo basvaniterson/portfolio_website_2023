@@ -71,7 +71,6 @@ hr {
 
 #projects-container {
     gap: 40px;
-    margin: 40px;
     margin-top: 0px;
     grid-template-columns: auto auto;
 }
@@ -98,6 +97,10 @@ hr {
 
 @media screen and (max-width: 1450px) {
     .flex-container {
+        margin: 40px;
+    }
+
+    #projects-container {
         margin: 40px;
     }
 
