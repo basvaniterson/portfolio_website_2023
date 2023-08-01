@@ -122,7 +122,7 @@ body {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 450px) {
   #border-background_full-screen {
     position: relative;
     max-height: 100%;
@@ -341,6 +341,17 @@ body {
 
 }
 
+@media screen and (max-width: 600px) {
+  .menu-items {
+      height: 62%;
+  }
+
+  .menu-item {
+    margin-bottom: 15px;
+  }
+
+}
+
 .logo-icon {
     margin-right: 10px;
     -webkit-user-drag: none;
@@ -394,9 +405,6 @@ body {
 .social-nav-item {
   display: flex;
   width: auto;
-}
-
-.nav-item {
 }
 
 .nav-item:last-of-type {
@@ -547,11 +555,11 @@ body {
     }
 
     .main-menu p {
-      font-size: 16px;
+      font-size: 18px;
     }
 
     .closebtn {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .menu-link p{
@@ -638,7 +646,7 @@ body {
     position: absolute;
     z-index: 888;
     display: flex;
-    
+    opacity: 1;
     animation: project-entry 1s ease-in-out forwards;
 }
 
