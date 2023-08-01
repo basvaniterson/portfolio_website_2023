@@ -140,6 +140,10 @@ body {
 }
 
 @media screen and (max-width: 1074px) {
+  #border-background_projects {
+    position: relative;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
