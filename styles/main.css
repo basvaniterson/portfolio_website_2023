@@ -647,7 +647,7 @@ body {
     z-index: 888;
     display: flex;
     opacity: 1;
-    animation: project-entry 1s ease-in-out forwards opacity 1;
+    animation: project-entry 1s ease-in-out forwards;
 }
 
 @media screen and (max-width: 1050px) {
