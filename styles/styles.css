@@ -71,7 +71,7 @@ hr {
 
 #projects-container {
     gap: 40px;
-    grid-template-columns: auto auto;
+    margin-top: 0px;
 }
 
 #projects-intro-container {
