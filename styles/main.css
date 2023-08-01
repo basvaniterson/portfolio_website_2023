@@ -130,15 +130,6 @@ body {
     right: 0px;
 }
 
-#border-background_projects {
-  position: absolute;
-  top: 0px;
-  max-height: 100vh;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-}
-
 @media screen and (max-width: 1074px) {
   #border-background_projects {
     position: relative;
