@@ -647,7 +647,7 @@ body {
     z-index: 888;
     display: flex;
     opacity: 1;
-    animation: project-entry 1s ease-in-out forwards;
+    animation: project-entry 1s ease-in-out forwards opacity 1;
 }
 
 @media screen and (max-width: 1050px) {
@@ -660,6 +660,8 @@ body {
 @media screen and (max-width: 670px) {
     .card-background-img img {
         width: 60%;
+        opacity: 1;
+        animation: none;
     }
 }
 
