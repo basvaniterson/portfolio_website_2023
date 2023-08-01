@@ -115,6 +115,14 @@ body {
   width: 0;   
 }
 
+#border-background_projects::before {
+  position: absolute!important;
+}
+
+#border-background_projects::after {
+  position: absolute!important;
+}
+
 @media screen and (max-width: 500px) {
     .border-background {
         max-height: 100%;
@@ -128,6 +136,15 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+#border-background_projects {
+  position: absolute;
+  top: 0px;
+  max-height: 100vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 @media screen and (max-width: 1074px) {
