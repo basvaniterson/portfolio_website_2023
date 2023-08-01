@@ -658,10 +658,14 @@ body {
 
 
 @media screen and (max-width: 670px) {
-    .card-background-img img {
+    
+  .card-background-img {
+    opacity: 1;
+  }
+  
+  .card-background-img img {
         width: 60%;
         opacity: 1;
-        animation: none;
     }
 }
 
