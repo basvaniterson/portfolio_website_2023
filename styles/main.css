@@ -125,6 +125,8 @@ body {
   position: fixed;
 }
 
+
+
 .border-background_projects::before {
   border-right: 2px solid #ffffff;
   left: 20px;
