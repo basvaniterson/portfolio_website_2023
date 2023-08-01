@@ -91,6 +91,30 @@ body {
     position: relative;
 }
 
+.border-background::before {
+  border-right: 2px solid #ffffff;
+  left: 20px;
+  position: absolute;
+  top: -2px;
+  transform-origin: right top;
+  content: "";
+  height: 32.2842712475px;
+  transform: rotate(45deg);
+  width: 0;
+}
+
+.border-background::after {
+  border-left: 2px solid #ffffff;
+  bottom: -2px;
+  position: absolute;
+  right: 20px;
+  transform-origin: left bottom;
+  content: "";
+  height: 32.2842712475px;
+  transform: rotate(45deg);
+  width: 0;   
+}
+
 @media screen and (max-width: 500px) {
     .border-background {
         max-height: 100%;
@@ -127,30 +151,6 @@ body {
     position: relative;
     max-height: 100%;
   }  
-}
-
-.border-background::before {
-    border-right: 2px solid #ffffff;
-    left: 20px;
-    position: absolute;
-    top: -2px;
-    transform-origin: right top;
-    content: "";
-    height: 32.2842712475px;
-    transform: rotate(45deg);
-    width: 0;
-}
-
-.border-background::after {
-    border-left: 2px solid #ffffff;
-    bottom: -2px;
-    position: absolute;
-    right: 20px;
-    transform-origin: left bottom;
-    content: "";
-    height: 32.2842712475px;
-    transform: rotate(45deg);
-    width: 0;   
 }
 
 @media screen and (max-width: 600px) {
