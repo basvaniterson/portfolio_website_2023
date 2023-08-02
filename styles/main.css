@@ -1139,6 +1139,10 @@ body {
     }
   }
 
+  .project-case {
+    height: 100%;
+  }
+
   .project-case-image {
     width: 100%;
     pointer-events: none;

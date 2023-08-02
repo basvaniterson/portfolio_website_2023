@@ -72,7 +72,7 @@ hr {
 #projects-container {
     gap: 40px;
     margin-top: 0px;
-    max-width: 1430px;
+    max-width: 1130px;
     margin: auto;
     grid-template-columns: auto auto;
 }
