@@ -103,7 +103,11 @@ hr {
     #grid-4-container {
         grid-template-columns: auto auto;
     }
-}
+
+
+    #projects-container {
+        margin: 40px;
+    }
 
 @media screen and (max-width: 1450px) {
     .flex-container {
