@@ -33,6 +33,15 @@ hr {
     align-items: center;
 }
 
+.grid-2-row-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr!important; /* Two equal-width columns */
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
 #grid-4-container {
     grid-template-columns: auto auto auto auto;
 }
@@ -211,6 +220,10 @@ hr {
     }
 
     .grid-container {
+        display: block;
+    }
+
+    .grid-2-row-container {
         display: block;
     }
 
