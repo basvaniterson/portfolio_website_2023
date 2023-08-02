@@ -108,6 +108,7 @@ hr {
     #projects-container {
         margin: 40px;
     }
+}
 
 @media screen and (max-width: 1450px) {
     .flex-container {
