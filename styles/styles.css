@@ -85,6 +85,12 @@ hr {
     grid-template-columns: auto auto;
 }
 
+#grid-2-row-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: auto;
+}
+
 #projects-intro-container {
     margin: auto;
     max-width: 1430px;
@@ -205,6 +211,10 @@ hr {
     }
 
     .grid-container {
+        display: block;
+    }
+
+    #grid-2-row-container {
         display: block;
     }
 }
