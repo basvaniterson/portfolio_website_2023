@@ -75,6 +75,8 @@ hr {
     max-width: 1130px;
     margin: auto;
     grid-template-columns: auto auto;
+    display: grid;
+    grid-row-start: 1;
 }
 
 #grid-2-container {
