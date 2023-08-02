@@ -75,6 +75,12 @@ hr {
     grid-template-columns: auto auto;
 }
 
+#grid-2-container {
+    gap: 40px;
+    margin-top: 0px;
+    grid-template-columns: auto auto;
+}
+
 #projects-intro-container {
     margin: auto;
     max-width: 1430px;
@@ -101,6 +107,10 @@ hr {
     }
 
     #projects-container {
+        margin: 40px;
+    }
+
+    #grid-2-container {
         margin: 40px;
     }
 
@@ -174,6 +184,10 @@ hr {
     }
 
     #projects-container {
+        margin: 15px;
+    }
+
+    #grid-2-container {
         margin: 15px;
     }
 
