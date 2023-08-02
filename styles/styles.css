@@ -35,7 +35,7 @@ hr {
 
 .grid-2-row-container {
     display: grid;
-    grid-template-columns: 1fr 1fr!important; /* Two equal-width columns */
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     grid-template-rows: auto;
     gap: 20px;
     justify-content: center;
@@ -92,12 +92,6 @@ hr {
     gap: 40px;
     margin-top: 0px;
     grid-template-columns: auto auto;
-}
-
-#grid-2-row-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr!important; /* Two equal-width columns */
-    grid-template-rows: auto;
 }
 
 #projects-intro-container {
@@ -224,10 +218,6 @@ hr {
     }
 
     .grid-2-row-container {
-        display: block;
-    }
-
-    #grid-2-row-container {
         display: block;
     }
 }
