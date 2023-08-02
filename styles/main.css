@@ -87,7 +87,7 @@ body {
     max-width: 100%;
     border: 1px solid #ffffff;
     overflow: hidden;
-    -webkit-clip-path: polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px);
+    -webkit-clip-path: polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px)!important;
     clip-path: polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px);
     position: relative;
 }
