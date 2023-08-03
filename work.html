@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="images/Favicon.png">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/fiv8wyx.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="cursor"></div>
     <div class="noise-background"></div>
     <div id="mySidenav" class="sidenav" style="width: 0;">
         <div class="menu-card">
@@ -57,7 +58,7 @@
                 <div class="menu-links-nav">
                     <div class="social-menu-items">
                         <div class="social-menu-item">
-                            <a class="menu-link" href="docs/resume-bas-van-iterson-eng-2023.pdf" target="_blank">
+                            <a class="menu-link" href="docs/resume-bas-van-iterson-eng-2023.pdf" target="_blank"> 
                                 <p class="resume-text" style="padding-left: 0px;">Download resume</p>
                             </a>
                         </div>
@@ -83,7 +84,7 @@
             </div>
         </div>
     </div>
-    <div class="border-background" id="border-background_full-screen">
+    <div class="border-background">
         <header>
             <div class="nav-container">
                 <div class="nav-item">
@@ -98,7 +99,7 @@
                     <div class="nav-content">
                         <div class="link-nav-items">
                             <div class="social-nav-item">
-                                <a class="link" href="docs/resume-bas-van-iterson-eng-2023.pdf" target="_blank"> Download resume </a>
+                                <a class="link" href="docs/resume-bas-van-iterson-eng-2023.pdf" target="_blank"> <p class="resume-text">Download resume</p> </a>
                             </div>
                             <div class="social-nav-item">
                                 <a class="link" href="https://www.linkedin.com/in/bas-c-van-iterson-8b1709139/" target="_blank">
@@ -125,63 +126,79 @@
                 </div>
             </div>
         </header>
-        <div class="hero-section">
-            <div class="content">
-                <div class="flex-container">
-                    <div class="flex-column">
-                        <div class="paragraph">
-                            <div class="description">
-                                <i class="description-block"></i>
-                                <p class="description-text">Digital Product Designer</p>
-                            </div>
-                            <span id="decoding-text"><h1>Designing digital products for mobile and web interfaces</h1></span>
-                            <p class="paragraph-text">
-                                Hello there! I'm Bas van Iterson, a Digital Product Designer based in the Netherlands. My focus is on UX/UI Design where I design digital solutions for mobile and web platforms to address challenges and drive business goals. I am passionate about designing cutting-edge interfaces that push the boundaries of innovation and make an impact.</p>
-                        </div>
+        <section>
+            <div class="container">
+                <div class="project-intro-paragraph">
+                    <div class="description">
+                        <i class="description-block"></i>
+                        <p class="description-text">03 projects</p>
                     </div>
-                    <div class="flex-column">
-                            <img class="hero-image" src="images/Home-Hero-Image.png"></img>
-                    </div>
-                </div>
-                <div class="flex-container" id="hero-section-cards">
-                    <div class="flex-column" id="navigation-card-column">
-                        <a class="navigation-card-link" href="work.html">
-                            <div class="navigation-card">
-                                <div class="card-background-img">
-                                    <img src="images/logo-background.svg"></img>
-                                </div>
-                                <div class="card-content">
-                                    <p class="pagination-element">02</p>
-                                    <h3 class="pagination-title">Featured work</h3>
-                                </div>
-                                <div class="outlined-btn">
-                                    <img class="arrow-btn-image" src="images/navigation-arrows-btn.svg"></img>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="flex-column" id="navigation-card-column">
-                        <a class="navigation-card-link" href="my-story.html">
-                            <div class="navigation-card">
-                                <div class="card-background-img">
-                                    <img src="images/logo-background.svg"></img>
-                                </div>
-                                <div class="card-content">
-                                    <p class="pagination-element">03</p>
-                                    <h3 class="pagination-title">My story</h3>
-                                </div>
-                                <div class="outlined-btn">
-                                    <img class="arrow-btn-image" src="images/navigation-arrows-btn.svg"></img>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    <h1 class="project-detail-title">Designing digital products</h1>
                 </div>
             </div>
-        </div>
+            <div class="grid-2-column-container">
+                <div class="grid-item">
+                    <a href="project-1.html">
+                        <div class="project-case">
+                            <img class="project-case-image" src="images/Project 1.png" alt="">
+                        </div>
+                        <h3 class="description-title">Component Matrix Library</h3>
+                        <hr>
+                        <div class="project-description-content">
+                            <div class="project-description">
+                                <div class="description">
+                                    <i class="description-block"></i>
+                                    <p class="description-text">product & design</p>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                <p class="description-year-text">2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="project-2.html">
+                        <div class="project-case">
+                            <img class="project-case-image" src="images/Project 2.png" alt="">
+                        </div>
+                        <h3 class="description-title">Allergy Alert</h3>
+                        <hr>
+                        <div class="project-description-content">
+                            <div class="project-description">
+                                <div class="description">
+                                    <i class="description-block"></i>
+                                    <p class="description-text">product & design</p>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                <p class="description-year-text">2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="project-3.html">
+                        <div class="project-case">
+                            <img class="project-case-image" src="images/Project 3.png" alt="">
+                        </div>
+                        <h3 class="description-title">Miyousotis</h3>
+                        <hr>
+                        <div class="project-description-content">
+                            <div class="project-description">
+                                <div class="description">
+                                    <i class="description-block"></i>
+                                    <p class="description-text">product & design</p>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                <p class="description-year-text">2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
-<script src="scripts/main.js"></script>
+

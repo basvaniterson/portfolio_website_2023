@@ -33,7 +33,7 @@ hr {
     align-items: center;
 }
 
-.grid-2-row-container {
+.grid-2-column-container {
     display: grid;
     margin: auto;
     max-width: 1130px;
@@ -126,7 +126,7 @@ hr {
         margin: 40px;
     }
 
-    .grid-2-row-container {
+    .grid-2-column-container {
         margin: 40px;
     }
 
@@ -219,7 +219,7 @@ hr {
         display: block;
     }
 
-    .grid-2-row-container {
+    .grid-2-column-container {
         display: block;
         margin: 15px;
     }
