@@ -1184,7 +1184,7 @@ body {
     align-items: center;
 }
 
-#project-cases-container {
+#grid-2-container {
   gap: 40px;
   max-width: 1130px;
   margin: auto;
@@ -1192,16 +1192,14 @@ body {
 
 @media screen and (max-width: 1450px) {
 
-  #project-cases-container {
-      margin: 40px;
+  #grid-2-container {
   }
 }
 
 @media screen and (max-width: 600px) {
 
-  #project-cases-container {
+  #grid-2-container{
     display: block;  
-    margin: 15px;
   }
 }
 
