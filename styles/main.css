@@ -1173,7 +1173,7 @@ body {
     margin-bottom: 30px;
   }
 
-  .grid-content{
+  .grid-content {
     display: grid;
     margin: auto;
     max-width: 1130px !important;
@@ -1182,25 +1182,14 @@ body {
     gap: 40px;
     justify-content: center;
     align-items: center;
-}
-
-#grid-2-container {
-  gap: 40px;
-  max-width: 1130px;
-  margin: auto;
-  grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
-  grid-template-rows: auto;
-}
+  }
 
 @media screen and (max-width: 1450px) {
-
-  #grid-2-container {
-  }
 }
 
 @media screen and (max-width: 600px) {
 
-  #grid-2-container{
+  .grid-content {
     display: block;  
   }
 }
