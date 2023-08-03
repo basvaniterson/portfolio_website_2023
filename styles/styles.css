@@ -27,7 +27,8 @@ hr {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
+    grid-template-rows: auto;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -35,11 +36,6 @@ hr {
 
 #grid-4-container {
     grid-template-columns: auto auto auto auto;
-}
-
-.grid-container #test {
-    grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
-    grid-template-rows: auto;
 }
 
 .grid-2-container {
