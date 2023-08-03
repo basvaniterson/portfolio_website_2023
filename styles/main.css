@@ -1183,6 +1183,16 @@ body {
     align-items: center;
   }
 
+  .visuals-content-grid {
+    display: grid;
+    max-width: 1130px !important;
+    grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
+    grid-template-rows: auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 
 
