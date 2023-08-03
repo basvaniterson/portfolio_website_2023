@@ -90,10 +90,11 @@ hr {
     grid-row-start: 1;
 }
 
-#grid-2-container {
+.grid-2-container {
     margin: auto;
+    display: grid;
     max-width: 1130px;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-columns: 1fr 1fr!important; /* Two equal-width columns */
     grid-template-rows: auto;
     gap: 40px;
 }
@@ -128,7 +129,7 @@ hr {
         margin: 40px;
     }
 
-    #grid-2-container {
+    .grid-2-container {
         margin: 40px;
     }
 
@@ -209,10 +210,6 @@ hr {
         margin: 15px;
     }
 
-    #grid-2-container {
-        margin: 15px;
-    }
-
     #project-nav-container {
         margin: 15px;
     }
@@ -221,7 +218,7 @@ hr {
         display: block;
     }
 
-    #grid-2-container {
+    .grid-2-container {
         display: block;
         margin: 15px;
     }
