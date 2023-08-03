@@ -33,7 +33,7 @@ hr {
     align-items: center;
 }
 
-.grid-2-row {
+.grid-2-row-container {
     display: grid;
     margin: auto;
     max-width: 1130px;
