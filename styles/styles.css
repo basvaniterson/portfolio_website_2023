@@ -35,6 +35,8 @@ hr {
 
 .grid-2-row {
     display: grid;
+    margin: auto;
+    max-width: 1130px;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     grid-template-rows: auto;
     gap: 40px;
