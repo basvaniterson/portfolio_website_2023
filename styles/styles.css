@@ -91,9 +91,11 @@ hr {
 }
 
 #grid-2-container {
+    margin: auto;
+    max-width: 1130px;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: auto;
     gap: 40px;
-    margin-top: 0px;
-    grid-template-columns: auto auto;
 }
 
 #projects-intro-container {
@@ -126,7 +128,7 @@ hr {
         margin: 40px;
     }
 
-    .grid-2-column-container {
+    #grid-2-container {
         margin: 40px;
     }
 
@@ -219,7 +221,7 @@ hr {
         display: block;
     }
 
-    .grid-2-column-container {
+    #grid-2-container {
         display: block;
         margin: 15px;
     }
