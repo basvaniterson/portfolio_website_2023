@@ -1186,7 +1186,7 @@ body {
 
 #project-cases-container {
   gap: 40px;
-  width: 1130px;
+  max-width: 1130px;
   margin: auto;
 }
 
