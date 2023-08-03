@@ -37,6 +37,18 @@ hr {
     grid-template-columns: auto auto auto auto;
 }
 
+#grid-2-container {
+    grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
+    grid-template-rows: auto;
+    gap: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-2-container {
+      display: block;  
+    }
+}
+
 .grid-item:last-of-type {
     margin-bottom:0px;
 }
