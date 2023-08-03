@@ -1188,6 +1188,8 @@ body {
   gap: 40px;
   max-width: 1130px;
   margin: auto;
+  grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 1450px) {
