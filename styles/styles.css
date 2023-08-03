@@ -33,17 +33,6 @@ hr {
     align-items: center;
 }
 
-.grid-2-column-container {
-    display: grid;
-    margin: auto;
-    max-width: 1130px;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    grid-template-rows: auto;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
 #grid-4-container {
     grid-template-columns: auto auto auto auto;
 }
@@ -90,15 +79,6 @@ hr {
     grid-row-start: 1;
 }
 
-.grid-2-container {
-    margin: auto;
-    display: grid;
-    max-width: 1130px;
-    grid-template-columns: 1fr 1fr!important; /* Two equal-width columns */
-    grid-template-rows: auto;
-    gap: 40px;
-}
-
 #projects-intro-container {
     margin: auto;
     max-width: 1430px;
@@ -126,10 +106,6 @@ hr {
 
 @media screen and (max-width: 1450px) {
     .flex-container {
-        margin: 40px;
-    }
-
-    .grid-2-container {
         margin: 40px;
     }
 
@@ -216,11 +192,6 @@ hr {
 
     .grid-container {
         display: block;
-    }
-
-    .grid-2-container {
-        display: block;
-        margin: 15px;
     }
 }
 
