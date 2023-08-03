@@ -1173,11 +1173,11 @@ body {
     margin-bottom: 30px;
   }
 
-  .grid-2-container {
+  .grid-content{
     display: grid;
     margin: auto;
-    max-width: 1130px;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    max-width: 1130px !important;
+    grid-template-columns: 1fr 1fr !important; /* Two equal-width columns */
     grid-template-rows: auto;
     gap: 40px;
     justify-content: center;
@@ -1186,14 +1186,14 @@ body {
 
 @media screen and (max-width: 1450px) {
 
-  .grid-2-container {
+  .grid-content {
       margin: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
 
-  .grid-2-container {
+  .grid-content {
     display: block;  
     margin: 15px;
   }
