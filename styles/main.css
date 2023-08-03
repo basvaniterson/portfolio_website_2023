@@ -1184,22 +1184,22 @@ body {
     align-items: center;
 }
 
-.project-cases-container {
+#project-cases-container {
   gap: 40px;
-  max-width: 1130px;
+  width: 1130px;
   margin: auto;
 }
 
 @media screen and (max-width: 1450px) {
 
-  .project-container {
+  #project-cases-container {
       margin: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
 
-  .project-container {
+  #project-cases-container {
     display: block;  
     margin: 15px;
   }
