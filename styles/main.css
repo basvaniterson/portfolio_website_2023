@@ -125,6 +125,15 @@ body {
   right: 0px;
 }
 
+#border-background_full-screen-projects {
+  position: absolute;
+  top: 0px;
+  max-height: 100vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
 #border-background_projects {
   position: absolute;
   top: 0px;
@@ -145,13 +154,18 @@ body {
     position: relative;
     max-height: 100%;
   }
+
+  #border-background_full-screen {
+    position: relative;
+    max-height: 100%;
+  }  
 }
 
 @media screen and (max-width: 450px) {
   #border-background_full-screen {
     position: relative;
     max-height: 100%;
-  }  
+  }
 }
 
 @media screen and (max-width: 600px) {
