@@ -12,42 +12,54 @@ body {
 
 /* Splash screen*/
 
-.intro {
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color:#EE7131;
-    transition: 1s;
+.intro-container {
+  position: fixed;
+  top: -150%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background: rgb(43,47,57);
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(43,47,57,1) 0%, rgba(61,66,80,1) 100%);
+  transition: top 1s ease-out, opacity 0.8s ease-out;
 }
 
-.logo-header {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
+.intro-container.visible {
+  top: 0;
+  opacity: 1;
 }
 
-.logo {
-    position: relative;
-    display: inline-block;
-    bottom: -20px;
+.bounce {
+  animation: bounce 0.8s ease-in-out both;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.intro-text {
+  animation: fade-in 1s ease-in-out forwards; /* Adding the fade-in animation */
+}
+
+@keyframes intro-text {
+  from {
     opacity: 0;
-}
-
-.logo.active {
-    bottom: 0;
+    transform: translateY(-20px); /* Starting position for text fade-in */
+  }
+  to {
     opacity: 1;
-    transition: ease-in-out 0.5s;
-}
-
-.logo.fade {
-    bottom: 150px;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
+    transform: translateY(0);
+  }
 }
 
 /* Background */
@@ -206,7 +218,7 @@ body {
 }
 
 .content {
-    max-width: 1130px;
+    max-width: 1230px;
     margin: auto;
 }
 
@@ -264,8 +276,8 @@ body {
   }
 
   .menu-card {
-    background: rgb(43,47,57);background: linear-gradient(0deg, rgba(43,47,57,1) 0%, rgba(61,66,80,1) 100%);
-    
+    background: rgb(43,47,57);
+    background: linear-gradient(0deg, rgba(43,47,57,1) 0%, rgba(61,66,80,1) 100%);
     margin: 40px;
     width: 40%;
     position: absolute;
@@ -339,6 +351,12 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
+  @media screen and (max-width: 1500px) {
+    .menu-items {
+      height: 50%;
+    }
+  }
+
 @media screen and (max-width: 1174px) {
     .menu-card {
         position: relative;
@@ -348,6 +366,14 @@ body {
         height: 100%;
     }
 }
+
+  @media screen and (max-width: 1080px) {
+    .menu-items {
+      height: 50%;
+    }
+  }
+
+
 
 @media screen and (max-width: 800px) {
     .menu-items {
@@ -362,7 +388,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .menu-items {
-      height: 62%;
+      height: 55%;
   }
 
   .menu-item {
@@ -608,6 +634,13 @@ body {
     animation: project-entry 1s ease-in-out forwards;
 }
 
+@media screen and (max-width: 1500px) {
+
+  #hero-content {
+      max-width: 1230px;
+  }
+}
+
 
 @media screen and (max-width: 1080px) {
 
@@ -628,6 +661,11 @@ body {
     .hero-image {
         margin: 30px 0px;
         width: 320px;
+    }
+
+    .hero-section {
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
 }
 
@@ -826,6 +864,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.project-content {
+  animation: project-entry 1s ease-in-out forwards;
+}
+
 
 .project-paragraph-content {
     margin-bottom: 40px;
@@ -1153,10 +1196,6 @@ body {
     }
   }
 
-  .project-case {
-    height: 100%;
-  }
-
   .project-case-image {
     width: 100%;
     pointer-events: none;
@@ -1197,7 +1236,21 @@ body {
     align-items: center;
   }
   
+  .video-content {
+    animation: project-entry 1s ease-in-out forwards;
+  }
 
+  .project-item-image:last-of-type {
+    padding-top: 30px;
+  }
 
+  @media screen and (max-width: 600px) {
+
+    .project-item-image:last-of-type {
+      padding-top: 15px;
+    }
+  }
+
+  
 
 
